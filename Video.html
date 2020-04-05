@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 : Video</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        section{
+            padding-top: 10px;
+            background-color: yellow;
+            padding-bottom: 10px;
+        }
+
+        button{
+            background: yellowgreen;
+        }
+        div{
+            padding-top: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <section>
+        <video src="../TallerJSDOM/Music.mp4" width="50%" id="video"></video>
+        <div>
+            <button id="Atrasar" onclick="Atrasar()">Atrasar</button>
+            <button id="VolMas" onclick="SubirVol()">Subir Vol</button>
+            <button id="VolMenos" onclick="Silenciar()">Silenciar/habilitar sonido</button>
+            <button id="Bajar" onclick="BajarVol()">BajarVol</button>
+            <button id="Reproducir" onclick="Reproducir()">Reproducir</button>
+            <button id="Pausar" onclick="Pausar()">Pausar</button>
+            <button id="Adelantar" onclick="Adelantar()">Adelantar</button>
+        </div>
+    </section>
+    <script src="Actividad1.js"></script>
+</body>
+</html>
